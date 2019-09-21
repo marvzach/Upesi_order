@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Meat And Grill</title>
+  <link rel="stylesheet" href="css/grill.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <section id="grill">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <nav>
+          <a href="landing.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+          <ul>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="#">HOTELS</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+          </ul>
+        </nav>
+        <div class="row">
+          <div class="col-md-4 placetitle">
+            Ngong lane Meat and grill <br>Ours is the Best Spot in Town
+          </div>
+          <div class="col-md-5 placeopening">30-60 mins</span></div>
+          <div class="col-md-3 ourlogo"><img src="img/bhp.png" alt="logo"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="navig">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-8">
+      <div class="sidenav">
+        <h1>MENU</h1>
+        <a href="#mbuzi"> <span class="glyphicon glyphicon-play"></span> Mbuzi choma</a>
+        <a href="#kuku"> <span class="glyphicon glyphicon-play"></span> Kuku choma</a>
+        <a href="#marinated"> <span class="glyphicon glyphicon-play"></span> Marinated</a>
+        <a href="#salad"> <span class="glyphicon glyphicon-play"></span> With salad</a>
+
+      </div>
+      <br><br>
+      <div class="prizes">
+      <form>
+        <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" >
+        <button type="submit"><span class="glyphicon glyphicon-search"></span></i></button>
+      </form>
+      <div id="mbuzi">
+        <h1>Mbuzi Choma*</h1>
+        <p>Sweet Aroma</p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button id="1" type="button" name="button" class="btn btn-info btn-lg" onclick="eric()">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg" onclick="marvo()">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg" onclick="marvo2()">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+      <div id="mbuzi">
+        <h1>Mbuzi Fry*</h1>
+        <p>Amazing  Aroma</p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg" onclick="marvo3()">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+      <div id="kuku">
+        <h1>Kuku Fry*</h1>
+        <p>Amazing Aroma</p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+      <div id="kuku">
+        <h1>Kuku Choma*</h1>
+        <p>Amazing Aroma</p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <a href="#" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span>
+       </a>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+      <div id="marinated">
+        <h1>Marited fry*</h1>
+        <p>Sweet </p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+      <div id="marinated">
+        <h1>Marinated*</h1>
+        <p>Sweet </p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+      <div id="salad">
+        <h1>Mbuzi with salad*</h1>
+        <p>Sweetness</p>
+        <div class="price">
+     <p>Quarter Kg:200 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Half Kg:     350 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+     <p>Full Kg:700 Ksh
+       <button type="button" name="button" class="btn btn-info btn-lg">
+         <span class="glyphicon glyphicon-plus-sign"></span></button>
+     </p>
+   </div>
+      </div>
+</div>
+    </div>
+    <div class="col-md-4">
+      <div class="main">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h2 class="panel-title">Current Order</h2>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li> <span id="order1"></span> </li><br>
+              <li> <span id="order2"></span> </li><br>
+              <li><span id="order3"></span> </li><br>
+              <li><span id="order4"></span> </li><br>
+            </ul>
+          </div>
+          <br><br>
+          <div class="prizes">
+            <form>
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><span class="glyphicon glyphicon-search"></span></i></button>
+            </form>
+            <div id="mbuzi">
+              <h1>Mbuzi Choma*</h1>
+              <p>Sweet Aroma</p>
+              <div class="price">
+                <p>Quarter Kg:200 Ksh
+                  <button type="button" name="button" id="mbuzi1" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg:350 Ksh
+                  <button type="button" name="button" id="mbuzi2" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" id="mbuzi3" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+              </div>
+            </div>
+            <div id="mbuzi">
+              <h1>Mbuzi Fry*</h1>
+              <p>Amazing Aroma</p>
+              <div class="price">
+                <p>
+                  Quarter Kg:200 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg: 350 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+              </div>
+            </div>
+            <div id="kuku">
+              <h1>Kuku Fry*</h1>
+              <p>Amazing Aroma</p>
+              <div class="price">
+                <p>Quarter Kg:200 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg: 350 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+              </div>
+            </div>
+            <div id="kuku">
+              <h1>Kuku Choma*</h1>
+              <p>Amazing Aroma</p>
+              <div class="price">
+                <p>Quarter Kg:200 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg: 350 Ksh
+                  <a href="#" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                  </a>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+              </div>
+            </div>
+            <div id="marinated">
+              <h1>Marited fry*</h1>
+              <p>Sweet </p>
+              <div class="price">
+                <p>Quarter Kg:200 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg: 350 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+              </div>
+            </div>
+            <div id="marinated">
+              <h1>Marinated*</h1>
+              <p>Sweet </p>
+              <div class="price">
+                <p>Quarter Kg:200 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg: 350 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+              </div>
+            </div>
+            <div id="salad">
+              <h1>Mbuzi with salad*</h1>
+              <p>Sweetness</p>
+              <div class="price">
+                <p>Quarter Kg:200 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Half Kg: 350 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <p>Full Kg:700 Ksh
+                  <button type="button" name="button" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                </p>
+                <button id="button"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="main">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h2 class="panel-title">Current Order</h2>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="panel-footer">
+                <p>Total</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body{
+  font-family: 'Exo', sans-serif;
+}
+.jumbotron{
+  background-image: url('../img/pizza.jpeg');
+  height: 450px;
+  background-size: cover;
+  font-size: 10px;
+}
+a:active {
+  background-color: pink;
+}
+li{
+  display:inline-block;
+}
+nav ul{
+  padding-left: 300px;
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+nav li{
+  display:inline-block;
+  font-size: 22px;
+  font-family: 'Exo', sans-serif;
+  margin-left: 30px;
+}
+nav>ul>li>a {
+  padding: 4px;
+  margin-right: 0;
+  text-transform: uppercase;
+  display: block;
+  color: white;
+}
+nav>ul>li>a:hover {
+  background: #F57F17;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+.navig{
+  float: left;
+}
+  .logo{
+    height: 150px;
+    width: 300px;
+  }
+  form{
+    margin-left:300px;
+  }
+  input[type=text] {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+  }
+  button {
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+
+  }
+  .intro{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 50px;
+  }
+span{
+  color: #F57F17;
+}
+.forder{
+  width: 600px;
+}

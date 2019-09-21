@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap1.css" type="text/css">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/login.js"></script>
+    <title>Login | Upesi</title>
+  </head>
+  <body>
+    <nav id="navig">
+      <a href="landing.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+      <ul>
+        <li><a href="login.html">LOG IN</a></li>
+        <li><a href="signup.html">SIGN UP</a> </li>
+        <li><a href="#">HOTELS</a>
+          <ul>
+            <li><a href="chinese.html">Chu Yon </a></li>
+            <li><a href="pizza.html">Pizza Joint</a></li>
+            <li><a href="grill.html">Meat and Grill</a></li>
+          </ul>
+        <li><a href="contacts.html">CONTACTS</a> </li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div class="container content">
+        <h3>Please login or <a href="signup.html">sign up</a> to continue</h3>
+        <form id="login" action="landing.html">
+          <div class="form-group">
+            <input type="text" id="email" class="form-control" placeholder="username">
+            <span id="empty1">Please fill in this field</span>
+            <input type="password" id="password" class="form-control" placeholder="password">
+            <span id="empty2">Please fill in this field</span>
+          </div>
+        </form>
+        <a href="landing.html"><button id="signin" type="submit" class="btn btn-success">Login</button></a>
+      </div>
+      <br>
+      <div class="signup">
+        <h5>Don't have an account?</h5>
+        <a id="signup" class="btn btn-info" href="signup.html">Sign Up</a>
+      </div>
+    </div>
+  </body>
+</html>
